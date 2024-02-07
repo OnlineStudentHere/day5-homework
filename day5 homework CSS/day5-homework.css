@@ -1,0 +1,302 @@
+
+/*created by online student*/
+
+body,
+h1,h2,h3,h4,h5,h6,
+p,
+ul,li,nav,
+fieldset, legend,textarea,
+section,
+button,
+a,
+span,
+small
+{
+    padding: 0;
+    margin: 0;   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section.page-1{
+    max-width: 1700px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url( https://img.freepik.com/free-vector/cartoon-background-with-empty-classroom-interior-inside_1441-1735.jpg?w=1380&t=st=1707296560~exp=1707297160~hmac=1bc65c72e060caa4e0a4d08fe766e794befdf8a95f92516b09413d11bd3b4c2d );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+}
+
+.container-1{
+    background-color: rgb(123, 123, 123);
+    padding: 2px;
+
+    max-width: 700px;
+    width: 100%;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header.header-1{
+   /* background-color: rgb(193, 24, 24);*/
+}
+
+h1.h1-homework-description{
+    background-color: rgb(49, 129, 155);
+
+    min-height: 100px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+    color: white;
+}
+
+main.main-1{
+    background-color: lightblue;
+    padding: 10px;
+    flex: 1;
+}
+
+.task-wrapper{
+    background-color: lightblue;
+    padding-left: 20px;
+}
+
+a.a-button{
+    idth: 100%;
+    height: 30px;
+    display: block;
+    background-color: rgb(245, 17, 17);
+    text-decoration: none;
+
+    display: grid;
+    place-content: center;
+    color: white;
+
+    border: 1px solid white;
+    word-spacing: 3px;
+}
+
+a.created{
+    display: block;
+  /*  background-color: green;*/
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-bottom: 20px;
+}
+
+/* section 1 END*/
+
+
+
+
+
+/*section 2 START*/
+
+section.page-2{ 
+  /*  background-color: rgb(245, 245, 57);*/
+    padding: 10px;
+
+    max-width: 1700px;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+  
+    display: flex;
+    flex-direction: column;
+
+    background-image: url( https://img.freepik.com/free-photo/beautiful-office-space-cartoon-style_23-2151043391.jpg?t=st=1707304333~exp=1707307933~hmac=af6c096f843e725974833e6855c9bf02e4a91aadb152a88dbdcf32d075bfea89&w=996 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-2{
+    min-height: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+header.header-2 div {
+    max-width: 170px;
+    width: 100%;
+     /*ackground-color: green;*/
+    border: 1px solid black;
+    margin: 5px;
+}
+
+header.header-2 .img-left{
+    background-image: url( https://img.freepik.com/free-photo/school-classroom-digital-art-style-education-day_23-2151164339.jpg?t=st=1707299048~exp=1707302648~hmac=5813c28a26b1dffacfa1e674a505a86b900a75d22af895569d00ecd5367ba12e&w=996 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header.header-2 .text-centered{
+    padding: 10px;
+    background-color: rgb(194, 194, 194);
+}
+
+header.header-2 .button-right{
+  display: grid;
+  place-content: center;
+  background-color: rgb(194, 194, 194);
+}
+
+button.i-am-the-button {
+    background-color: rgb(106, 228, 116);
+    padding: 10px 15px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button.i-am-the-button:hover{
+    background-color: green;
+    color: white;
+}
+
+.main-2{
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 3px;
+    border: 5px solid #fae1ca;
+}
+
+
+/*<form> START----------------------*/
+form.form-section-2{
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    margin: 0px auto 40px;
+    padding: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+form.form-section-2 p{
+    font-weight: 900;
+}
+
+#bad-option-unavailable {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+span.bad{
+    margin-left: 10px;
+    display: block;
+    position: absolute;
+    top: 56%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    ackground-color: orange;
+}
+
+/*<form> END -------------------------------*/
+
+
+
+/*Ordered list START-------------------------*/
+ol.ordered-list li:nth-child(2n) {
+  background: rgb(170, 170, 170);
+  padding: 5px;
+}
+
+ol.ordered-list li {
+    margin: 10px;
+}
+/*Ordered list END-------------------------*/
+
+hr.hr-decoration-section-2 {
+    width: 300px;
+    height: 2px;
+    background-color: black;
+}
+
+/*Unordered list START-------------------------*/
+ul.unordered-list li:last-child,
+ul.unordered-list li:first-child {
+
+background-color: orange;
+font-weight: bold;
+padding: 5px;
+}
+
+ul.unordered-list{
+    isplay: block;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(217, 217, 217);
+    padding: 10px 10px 10px 20px;
+}
+
+/*Ordered list END-------------------------*/
+
+
+.footer-2{
+    text-align: center;
+}
+
+.footer-2 a{
+    color: white;
+}
+
+a.a-button-section-2{
+   max-width: 400px;
+   width: 100%;
+   height: 30px;
+   background-color: red;
+   color: white;
+   margin: 0px auto 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   word-spacing: 3px;
+}
+
+/*section 2 END*/
